@@ -13,7 +13,7 @@ const firebaseConfig = {
   projectId: "auth-3bec5",
   storageBucket: "auth-3bec5.appspot.com",
   messagingSenderId: "617893532121",
-  appId: "1:617893532121:web:feb9589aa76ef2f106c9c8"
+  appId: "1:617893532121:web:feb9589aa76ef2f106c9c8",
 };
 
 // Initialize Firebase
@@ -23,4 +23,3 @@ export default firebaseConfig;
 
 export const storage = getStorage(app);
 export const db = getFirestore(app);
-
